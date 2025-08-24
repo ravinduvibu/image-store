@@ -1,3 +1,4 @@
+import Chatbot from "./components/Chatbot";
 export default function Home() {
   return (
     <main className="min-h-screen bg-white text-neutral-900 flex flex-col">
@@ -16,6 +17,7 @@ export default function Home() {
           Browse Gallery
         </a>
       </section>
+      <Chatbot />
 
       {/* Gallery */}
       <section className="mx-auto max-w-6xl px-4 pb-20" id="gallery">
